@@ -141,6 +141,9 @@
  .bootstrap-select .dropdown-toggle:focus{
      box-shadow: none !important 
 }
+.primarybackground{
+    background: #ff8f00 !important;
+}
 /*------------------------------------------------------------------ LOADER -------------------------------------------------------------------*/
  #back-to-top {
      position: fixed;
