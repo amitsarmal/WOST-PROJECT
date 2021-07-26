@@ -14,12 +14,21 @@
       position:fixed;
       bottom:0px;
       margin-bottom:0px;
-      width:100%;
+      width: 100%;
       justify-content:center;
     }
 }
 @media only screen and (min-height: 800px){
     #footerRes {
+      position:fixed;
+      bottom:0px;
+      margin-bottom:0px;
+      width:100%;
+      justify-content:center;
+    }
+}
+@media only screen and (min-height: 900px){
+    #sifooter {
       position:fixed;
       bottom:0px;
       margin-bottom:0px;
