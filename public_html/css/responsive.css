@@ -27,6 +27,16 @@
       justify-content:center;
     }
 }
+@media only screen and (max-width:700px){
+    #sts {
+     font-size:30px!important;
+    }
+}
+@media only screen and (min-width:500px){
+    #form-wid {
+        width:500px;
+    }
+}
  @media (min-width: 768px) and (max-width: 991px) {
      nav.navbar.bootsnav .navbar-header{
          width: 100%;
