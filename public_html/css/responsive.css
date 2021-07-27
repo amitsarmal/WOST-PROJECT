@@ -36,13 +36,23 @@
       justify-content:center;
     }
 }
+@media only screen and (max-height: 600px) and (max-width: 500px){
+    #form-wid {
+      margin: 1px 0px !important;
+    }
+}
+@media only screen and (max-height: 750px) and (max-width: 500px){
+    #siform-wid {
+      margin: 1px 0px !important;
+    }
+}
 @media only screen and (max-width:700px){
     #sts {
      font-size:30px!important;
     }
 }
 @media only screen and (min-width:500px){
-    #form-wid {
+    #form-wid,#siform-wid {
         width:500px;
     }
 }
