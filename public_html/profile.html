@@ -8,16 +8,14 @@
 
     <!-- Mobile Metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <!-- Site Metas -->
     <title>SureToShop | Fashion starts from here</title>
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Site Icons -->
     <link rel="shortcut icon" href="images/myfavicon.ico" type="image/x-icon">
-
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- Site CSS -->
@@ -28,23 +26,17 @@
     <link rel="stylesheet" href="css/custom.css">
     <!-- Adding main top here -->
     <script src="js/_header.js"></script>
-
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
 </head>
 
 <body>
     <!-- Start Main Top -->
     <header class="main-header">
         <!-- Start Navigation -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-default bootsnav" style="height:55px;">
-            <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-default bootsnav" style="height:55px;" id="navshort">
+            <div class="container" id="navid">
                 <!-- Start Header Navigation -->
                 <div>
-                    <h2 style="font-size: 35px; text-align:left;margin-left:0em;padding: 0vh;">
+                    <h2 style="font-size: 40px; text-align:left;margin-left:0em;padding: 0vh;" id="sts" class="stsfont">
                       Sure<b><font color="ff8f00">To</font></b
                         >Shop
                       </h2>
@@ -52,51 +44,53 @@
                 <!-- End Header Navigation -->
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="navbar-menu">
-                    <ul class="nav navbar-nav ml-auto" data-in="fadeInDown" data-out="fadeOutUp">
-                        <li class="nav-item active"><a class="nav-link" href="profile.html">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
-                        <li class="dropdown megamenu-fw">
-                            <a href="#" class="nav-link dropdown-toggle arrow" data-toggle="dropdown">Categories</a>
-                            <ul class="dropdown-menu megamenu-content" role="menu">
-                                <li>
-                                    <div class="row" style="justify-content:center;">
-                                        <div class="col-menu col-md-3">
-                                            <h6 class="title">
-                                                <a href="#" onmouseover="this.style.color='#ff8f00'" onmouseout="this.style.color='#000000'">Men's Fashion</a></h6>
+                    <div class="navbar-collapse collapse nav-mobile" id="navbar-menu">
+                        <ul class="nav navbar-nav ml-auto li-mobile" data-in="fadeInDown" data-out="fadeOutUp">
+                            <li class="nav-item active"><a class="nav-link" href="profile.html">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                            <li class="dropdown megamenu-fw">
+                                <a href="#" class="nav-link dropdown-toggle arrow" data-toggle="dropdown">Categories</a>
+                                <ul class="dropdown-menu megamenu-content" role="menu">
+                                    <li>
+                                        <div class="row" style="justify-content:center;">
+                                            <div class="col-menu col-md-3">
+                                                <h6 class="title">
+                                                    <a href="#" onmouseover="this.style.color='#ff8f00'" onmouseout="this.style.color='#000000'">Men's Fashion</a></h6>
+                                            </div>
+                                            <div class="col-menu col-md-3">
+                                                <h6 class="title">
+                                                    <a href="#" onmouseover="this.style.color='#ff8f00'" onmouseout="this.style.color='#000000'">Women's Fashion</a></h6>
+                                            </div>
+                                            <div class="col-menu col-md-3">
+                                                <h6 class="title">
+                                                    <a href="#" onmouseover="this.style.color='#ff8f00'" onmouseout="this.style.color='#000000'">
+                                                    Kid's Fashion</a></h6>
+                                            </div>
                                         </div>
-                                        <div class="col-menu col-md-3">
-                                            <h6 class="title">
-                                                <a href="#" onmouseover="this.style.color='#ff8f00'" onmouseout="this.style.color='#000000'">Women's Fashion</a></h6>
-                                        </div>
-                                        <div class="col-menu col-md-3">
-                                            <h6 class="title">
-                                                <a href="#" onmouseover="this.style.color='#ff8f00'" onmouseout="this.style.color='#000000'">
-                                                Kid's Fashion</a></h6>
-                                        </div>
-                                    </div>
-                                </li>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="wishlist.html">Wishlist</a></li>
+                            
+                        </ul>
+                        <!-- Start Atribute Navigation -->
+                        <div class="attr-nav">
+                            <ul>
+                            <li class="search"><a href="#"><i class="fa fa-search"></i></a></li>
+                            <li class="side-menu"><a href="#">
+				    		<i class="fa fa-shopping-bag"></i> <span class="badge">3</span></a></li>
                             </ul>
-                        </li>
-                        <li class="nav-item"><a class="nav-link" href="wishlist.html">Wishlist</a></li>
-                        
-                    </ul>
-                </div>
-                <!-- navbar-collapse -->
-
-                <!-- Start Atribute Navigation -->
-                <div class="attr-nav">
-                    <ul>
-                        <li class="search"><a href="#"><i class="fa fa-search"></i></a></li>
-                        <li class="side-menu"><a href="#">
-						<i class="fa fa-shopping-bag"></i>
-                            <span class="badge">3</span>
-					</a></li>
-                    </ul>
-                </div>
-                <!-- End Atribute Navigation -->
+                        </div>
+                    <!-- End Atribute Navigation -->
+                    </div>
+                    <!-- navbar-collapse -->
+                    <div>
+                        <input type="checkbox" id="check">
+                        <label for="check" class="bars">
+                        <i class="fas fa-bars"></i>
+                        </label>
+                    </div>
             </div>
-            
         </nav>
         <!-- End Navigation -->
     </header>
@@ -131,7 +125,7 @@
                     </div>
                 </div>
             </li>
-            <li class="text-center">
+            <!-- <li class="text-center">
                 <img src="images/Main image 5.jpg" alt="">
                 <div class="container">
                     <div class="row">
@@ -144,7 +138,7 @@
                         </div>
                     </div>
                 </div>
-            </li>
+            </li> -->
             <li class="text-center">
                 <img src="images/Main image 1.jpeg" alt="">
                 <div class="container">
