@@ -22,9 +22,8 @@
     display: none;
   }
 @media only screen and (max-width: 991px){
-    .bars{
-      display: block;
-      margin-bottom:0rem;
+    #navbar-menu{
+      background-color: white;
     }
     #navid {
         bottom:23px;
@@ -34,7 +33,7 @@
         padding-top:0px;
     } 
     .navbar-toggler{
-        border: none !important;;
+        border: none !important;
     } 
 }
 @media (min-width: 700px) and (max-width: 991px) {
@@ -315,7 +314,7 @@
 }
  @media only screen and (min-width: 280px) and (max-width: 599px) {
      .navbar-light .navbar-toggler{
-         /* border-color: #ff8f00; */
+         border-color: #ff8f00;
          color: #010101;
          border-radius: 0px;
          margin-right: 7px;
