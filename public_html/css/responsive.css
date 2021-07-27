@@ -9,9 +9,9 @@
          padding-right: 30px;
     }
 }
-#check{
-    display: none;
-  }
+.shoti{
+    display:none;
+}
 .bars{
     font-size:30px;
     color:black;
@@ -28,24 +28,53 @@
     }
     #navid {
         bottom:23px;
-    }   
-}
-@media only screen and (max-width:600px){
-    .bars {
-        margin-right:20px;
     }
+    .attr-nav  {
+        top:-8px !important;
+        padding-top:0px;
+    } 
+    .navbar-toggler{
+        border: none !important;;
+    } 
+}
+@media (min-width: 700px) and (max-width: 991px) {
+    .gayab {
+        top:-7px;
+   }
 }
 @media only screen and (max-width:300px){
+    .shoti{
+        margin-left:30px;
+        margin-right:30px!important;
+        
+    }
+}
+@media only screen and (max-width:385px){
     .bars {
         margin-right:3px;
     }
     .stsfont {
         font-size:18px !important;
     }
+    .shoti{
+        display:flex;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        justify-content: center;
+        margin-top:0px;
+        
+    }
+    .gayab{
+        display:none;
+    }
 }
 @media only screen and (max-width:991px){
     #removeit {
        display:none;
+    }
+}
+@media only screen and (min-width:991px){
+    .gayab {
+       font-size:30px!important;
     }
 }
 @media only screen and (min-width: 1500px){
@@ -106,14 +135,14 @@
          width: 100%;
     }
      .navbar-light .navbar-toggler{
-         border-color: #d33b33;
+         border-color: #ff8f00;
          color: #010101;
          border-radius: 0px;
          margin-right: 7px;
-         padding-top: 6px;
-         padding-top: 6px;
+         padding-top: 4px;
+         /* padding-top: 6px; */
          float: left;
-         margin-top: 20px;
+         margin-top: 5px;
     }
      nav.navbar.bootsnav ul.nav > li > a{
          padding: 5px 15px;
@@ -171,14 +200,14 @@
          width: 80%;
     }
      .navbar-light .navbar-toggler{
-         border-color: #d33b33;
+         border-color: #ff8f00;
          color: #010101;
          border-radius: 0px;
          margin-right: 7px;
-         padding-top: 6px;
-         padding-top: 6px;
+         padding-top: 3px;
+         /* padding-top: 6px; */
          float: left;
-         margin-top: 20px;
+         margin-top:8px;
     }
      nav.navbar.bootsnav ul.nav > li > a{
          padding: 5px 15px;
@@ -286,11 +315,11 @@
 }
  @media only screen and (min-width: 280px) and (max-width: 599px) {
      .navbar-light .navbar-toggler{
-         border-color: #d33b33;
+         /* border-color: #ff8f00; */
          color: #010101;
          border-radius: 0px;
          margin-right: 7px;
-         padding-top: 6px;
+         padding-top: 0px;
     }
      nav.navbar.bootsnav ul.nav > li > a{
          padding: 5px 15px;
