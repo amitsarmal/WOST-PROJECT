@@ -12,15 +12,6 @@
 .shoti{
     display:none;
 }
-.bars{
-    font-size:30px;
-    color:black;
-    float: right;
-    line-height: 80px;
-    margin-right: 40px;
-    cursor: pointer;
-    display: none;
-  }
 @media only screen and (max-width: 991px){
     #navbar-menu{
       background-color: white;
@@ -49,9 +40,6 @@
     }
 }
 @media only screen and (max-width:385px){
-    .bars {
-        margin-right:3px;
-    }
     .stsfont {
         font-size:18px !important;
     }
@@ -90,7 +78,7 @@
       position:fixed;
       bottom:0px;
       margin-bottom:0px;
-      width:100%;
+      width: 100%;
       justify-content:center;
     }
 }
@@ -258,7 +246,7 @@
          font-size: 16px;
     }
      nav.navbar.bootsnav ul.nav li.dropdown ul.dropdown-menu > li > a:hover{
-         color: #d33b33;
+         color: #ff8f00;
     }
      .hover-team{
          margin-bottom: 30px;
