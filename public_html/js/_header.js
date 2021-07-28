@@ -45,8 +45,7 @@ document.write(`<div class="main-top">
       <div class="our-link">
         <ul>
           <li><a href="login.html">Login</a></li>
-          <li><a href="signup.html">SignUp</a></li>
-          <li><a href="service.html">Our Service</a></li>
+          <li><a href="signup.html">SignUp</a></li> 
         </ul>
       </div>
     </div>

@@ -1613,7 +1613,7 @@ ul.cart-list > li.total > .btn:hover {
   opacity: 0.5;
 }
 .hover-team .team-content .title {
-  border-bottom: 2px solid #d33b33;
+  border-bottom: 2px solid #ff8f00;
 }
 .shop-box-inner {
   padding: 70px 0px;
@@ -2063,7 +2063,7 @@ ul.cart-list > li.total > .btn:hover {
   font-weight: 600;
 }
 .new-account-login h5 a:hover {
-  color: #d33b33;
+  color: #ff8f00;
 }
 .review-form-box button {
   padding: 10px 20px;
@@ -2184,11 +2184,11 @@ ul.cart-list > li.total > .btn:hover {
   }
   40% {
     opacity: 0.5;
-    box-shadow: 0 0 0 2px rgba(0, 53, 68, 0.1), 0 0 10px 10px #d33b33,
+    box-shadow: 0 0 0 2px rgba(0, 53, 68, 0.1), 0 0 10px 10px #ff8f00,
       0 0 0 10px rgba(0, 53, 68, 0.5);
   }
   100% {
-    box-shadow: 0 0 0 2px rgba(0, 53, 68, 0.1), 0 0 10px 10px #d33b33,
+    box-shadow: 0 0 0 2px rgba(0, 53, 68, 0.1), 0 0 10px 10px #ff8f00,
       0 0 0 10px rgba(0, 53, 68, 0.5);
     -webkit-transform: scale(1.5);
     opacity: 0;
@@ -2200,11 +2200,11 @@ ul.cart-list > li.total > .btn:hover {
   }
   40% {
     opacity: 0.5;
-    box-shadow: 0 0 0 2px rgba(0, 53, 68, 0.1), 0 0 10px 10px #d33b33,
+    box-shadow: 0 0 0 2px rgba(0, 53, 68, 0.1), 0 0 10px 10px #ff8f00,
       0 0 0 10px rgba(0, 53, 68, 0.5);
   }
   100% {
-    box-shadow: 0 0 0 2px rgba(0, 53, 68, 0.1), 0 0 10px 10px #d33b33,
+    box-shadow: 0 0 0 2px rgba(0, 53, 68, 0.1), 0 0 10px 10px #ff8f00,
       0 0 0 10px rgba(0, 53, 68, 0.5);
     -moz-transform: scale(1.5);
     opacity: 0;
@@ -2216,7 +2216,7 @@ ul.cart-list > li.total > .btn:hover {
   }
   40% {
     opacity: 0.5;
-    box-shadow: 0 0 0 2px rgba(0, 53, 68, 0.1), 0 0 10px 10px #d33b33,
+    box-shadow: 0 0 0 2px rgba(0, 53, 68, 0.1), 0 0 10px 10px #ff8f00,
       0 0 0 10px rgba(0, 53, 68, 0.5);
   }
   100% {
@@ -2269,7 +2269,7 @@ ul.cart-list > li.total > .btn:hover {
   left: 0;
   top: 5px;
   padding-right: 6px;
-  color: #d33b33;
+  color: #ff8f00;
 }
 .contact-info-left ul li p a:hover {
   color: #ff8f00;
@@ -2422,7 +2422,7 @@ ul.cart-list > li.total > .btn:hover {
 }
 
 .share-bar a {
-  background: #d33b33;
+  background: #ff8f00;
   color: #ffffff;
   padding: 5px 10px;
   display: inline-block;
