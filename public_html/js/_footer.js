@@ -55,8 +55,8 @@ document.write(`<footer>
           <ul>
             <li><a href="about.html">About Us</a></li>
             <li><a href="service.html">Customer Service</a></li>
-            <li><a href="#">Terms &amp; Conditions</a></li>
-            <li><a href="#">Delivery Information</a></li>
+            <li><a href="t&c.html">Terms &amp; Conditions</a></li>
+            <li><a href="deliveryinfo.html">Delivery Information</a></li>
           </ul>
         </div>
       </div>
