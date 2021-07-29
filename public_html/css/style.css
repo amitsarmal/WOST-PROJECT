@@ -2461,3 +2461,11 @@ ul.cart-list > li.total > .btn:hover {
   vertical-align: middle;
   white-space: nowrap;
 }
+.card-header{
+  font-size: 30px;
+  color: #ff8f00;
+}
+.card-title{
+  font-size: 20px;
+  color: #ff8f00;
+}
