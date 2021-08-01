@@ -491,7 +491,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
 }
 
 nav.navbar.bootsnav ul.dropdown-menu.megamenu-content .content ul.menu-col li a:hover{
-	color: #d33b33;
+	color: #ff8f00;
 }
 
 /* Navbar Responsive
@@ -546,7 +546,7 @@ nav.navbar.bootsnav ul.dropdown-menu.megamenu-content .content ul.menu-col li a:
     nav.navbar.bootsnav li.dropdown ul.dropdown-menu > li a:hover,
     nav.navbar.bootsnav li.dropdown ul.dropdown-menu > li a:hover{
         background-color: transparent;
-		color: #d33b33;
+		color: #ff8f00;
     }
     
     nav.navbar.bootsnav li.dropdown ul.dropdown-menu > li > a{
