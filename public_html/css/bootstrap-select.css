@@ -97,7 +97,7 @@ select.selectpicker {
 }
 /* line 141, bootstrap-select.scss */
 .form-group-lg .bootstrap-select.btn-group.form-control, .form-group-sm .bootstrap-select.btn-group.form-control {
-  padding: 0;
+  padding:0;
 }
 /* line 145, bootstrap-select.scss */
 .form-group-lg .bootstrap-select.btn-group.form-control .dropdown-toggle, .form-group-sm .bootstrap-select.btn-group.form-control .dropdown-toggle {
